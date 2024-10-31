@@ -1,0 +1,44 @@
+.toplevel_page_ntfy .toplevel_page_ntfy img {
+    padding-top: 6px !important;
+}
+#ninja-toastify {
+    .app-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    #ntfy_dashboard {
+        li {
+                color: #ffffff;
+                padding: 4px 5px;
+                font-size: 14px;
+                list-style: inside;
+                font-weight: 700;
+                line-height: 9px;
+        }
+
+        ul {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .ntfy_section {
+
+            background: #102C3B;
+            color: #ffffff;
+            align-items: center;
+            border-radius: 10px;
+            padding: 15px 10px;
+            margin-bottom: 20px;
+            .ntfy_div{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        code {
+            font-size: 13px;
+            color: #102c3c;
+            word-wrap: break-word;
+        }
+    }
+}
